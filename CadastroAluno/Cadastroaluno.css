@@ -1,0 +1,58 @@
+/* Todos os elementos da página */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Elemento de tag <body> */
+body {
+    display: flex;
+    padding: 25px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: darkcyan;
+    justify-content: center;
+
+}
+
+/* Elementos de tag <fieldset>*/
+fieldset {
+    width: 500px;
+    background-color: #E0E0F8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 0px;
+}
+
+/* Elementos do id fildLabel */
+.fildLabel {
+    margin-left: 20%;
+}
+
+/* Elementos do input */
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 90px;
+    margin-left: 20%;
+}
+
+/* Elementos de tag check*/
+#check {
+    display: inline-block;
+}
+
+/* Elementos do botão */
+button {
+    margin-left: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+/* Elementos do botão */
+button:hover {
+    cursor: pointer;
+    background-color: #c4c4c4;
+}

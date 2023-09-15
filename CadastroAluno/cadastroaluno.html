@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cadastroaluno.css" media="screen">
+    <title>Cadastro Aluno</title>
+</head>
+
+<body>
+    <form>
+        
+        <!--fielset para criar uma espécie de margem-->
+        <fieldset class="Grupo">
+
+            <div>
+                <!--Caixa de nome-->
+                <label class="fildLabel" for="Nome">Nome</label><br><br>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <br><br>
+            <div>
+                <!--Caixa de sobrenome-->
+                <label class="fildLabel" for="Sobrenome">Sobrenome</label><br><br>
+                <input type="text" id="Sobrenome" name="Sobrenome" required>
+            </div>
+            <br><br>
+            <div>
+                <!--Caixa de data de nascimento-->
+                <label class="fildLabel" for="Data de nascimento">Data de nascimento</label><br><br>
+                <input type="date" id="Data de nascimento" name="Data de nascimento" min="2000-01-01" max="2017-12-31"
+                    required>
+            </div>
+            <br><br>
+            <div>
+                <!--Caixa de endereço-->
+                <label class="fildLabel" for="Endereço">Endereço</label><br><br>
+                <input type="text" id="Endereço" name="Endereço">
+            </div>
+            <br><br>
+
+            <div>
+                <!--Caixa de nome da mãe-->
+                <label class="fildLabel" for="Nome da Mãe">Nome da Mãe</label><br><br>
+                <input type="text" id="Nome da mãe" name="Nome da mãe">
+            </div>
+            <br><br>
+            <div>
+                <!--Caixa de nome do pai-->
+                <label class="fildLabel" for="Nome do Pai">Nome do Pai</label><br><br>
+                <input type="text" id="Nome do Pai" name="Nome do Pai">
+            </div>
+            <br><br>
+            <div>
+                <!--Caixa de e-mail-->
+                <label class="fildLabel" for="E-mail">E-mail</label><br><br>
+                <input type="E-mail" id="E-mail" name="E-mail" required pattern=".*@.*\.com">
+            </div>
+            <br><br>
+            <div>
+                <!--Caixa de telefone-->
+                <label class="fildLabel" for="Tel">Tel</label><br><br>
+                <input type="Tel" id="Tel" name="Tel">
+            </div>
+            <br><br>
+            <div>
+                <!--Caixa de série-->
+                <label class="fildLabel" for="Série">Série</label><br><br>
+                <input type="number" id="Série" name="Série" min="1" max="9" step="1">
+            </div>
+            <br><br>
+            <div>
+                <!--Caixa de seleção de sexo-->
+                <label class="fildLabel" for="Sexo">Sexo</label>
+                <br>
+                <label>
+                    <input type="Radio" name="Sexo" Value="Feminino">Feminino
+                </label>
+                <br>
+                <label>
+                    <input type="Radio" name="Sexo" Value="Masculino">Masculino
+                </label>
+            </div>
+            <br><br>
+            <div> 
+                <!--Checkbox de necessidades especiais-->
+                <label class="fildLabel">Necessidades Especiais</label><br><br>
+
+                <input type="checkbox" id="Deficiência Motora" name="Necessidades Especiais" value="Deficiência Motora">
+                <label for="Necessidades Especiais">Deficiência Auditiva</label><br><br>
+
+                <input type="checkbox" id="Deficiência Visual" name="Necessidades Especiais" value="Deficiência Visual">
+                <label for="Necessidades Especiais">Deficiência Motora</label><br><br>
+
+                <input type="checkbox" id="Paralisia Cerebral" name="Necessidades Especiais" value="Paralisia Cerebral">
+                <label for="Necessidades Especiais">Deficiência Visual</label><br><br>
+
+                <input type="checkbox" id="Pertubação do Espectro Autista" name="Necessidades Especiais"
+                    value="Pertubação do Espectro Autista">
+                <label for="Necessidades Especiais">Paralisia Cerebral</label><br><br>
+
+                <input type="checkbox" id="Pertubação do Foro Psicológico" name="Necessidades Especiais"
+                    value="Pertubação do Foro Psicológico">
+                <label for="Necessidades Especiais">Pertubação do Espectro Autista</label><br><br>
+
+                <input type="checkbox" id="Pertubações de Aprendizagem" name="Necessidades Especiais"
+                    value="Pertubações de Aprendizagem">
+                <label for="Necessidades Especiais">Pertubação do Foro Psicológico</label><br><br>
+
+                <input type="checkbox" id="Altas Habilidades" name="Necessidades Especiais"
+                    value="Pertubações de Aprendizagem">
+                <label for="Necessidades Especiais">Pertubações de Aprendizagem</label><br><br>
+
+                <div>
+                    <input type="checkbox" id="Altas Habilidades" name="Neceassidades Especiais"
+                        value="Altas Habilidades">
+                    <label for="Necessidades Especiais">Altas Habilidades</label><br><br>
+                </div>
+
+            </div class="botão"> <br><br>
+                <!--botão para enviar ou limpar tela-->
+            <div>
+                <button type="submit">Salvar</button>
+                <button type="submit">Limpar tela</button>
+            </div>
+
+
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

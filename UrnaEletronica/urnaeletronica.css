@@ -1,0 +1,64 @@
+/* Todos os elementos da página */
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+ /* Elementos da tag body*/
+ body {
+    display: flex;
+    padding: 0px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: darkcyan;
+}
+
+/* Elementos de tag <fieldset>*/
+fieldset {
+    
+    margin-left: 10%;
+    background-color: cadetblue;
+    padding: 15px 0px;
+}
+
+/* Elementos do h1>*/
+h1{
+    margin: 0px 400px;
+}
+
+/* Elementos do input>*/
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Elementos do figcaption>*/
+figcaption{
+    margin: 0px 450px;
+    font-size: 1em;
+    color: black;
+}
+
+/* Elementos da img*/
+img{
+    margin: 0px 150px;
+}
+
+/* Elementos do botão*/
+button {
+    display: center;
+    margin: 10px 120px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+/* Elementos do botão*/
+button:hover {
+    cursor: pointer;
+    background-color: #c4c4c4;
+}
