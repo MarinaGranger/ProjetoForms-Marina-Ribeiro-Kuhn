@@ -29,17 +29,24 @@
             <input type="Empresa/organização" id="Empresa/organização" name="Empresa/organização"
                 placeholder="  Empresa/organização"><br><br>
 
-             <!--Quinto input usado para criar campo de tel-->
+            <!--Quinto input usado para criar campo de tel-->
             <input type="Tel" id="Tel" name="Tel" placeholder="  Tel"><br><br>
 
-            <!--Quarto input usado para criar campo de motivo do contato-->
-            <input type="Motivo do contato" id="Motivo do contato" name="Motivo do contato"
-                placeholder="  Motivo do contato"><br><br>
+            <!--Select usado para criar campo de múltipla seleção-->
+            <select name="Motivo do contato" placeholder="Motivo do contato">
+                <option value="Motivo do contato">Motivo do contato</option>
+                <option value="Elogio">Elogio</option>
+                <option value="Problema com o produto">Problema com o produto</option>
+                <option value="Reclamação">Reclamação</option>
+                <option value="Sugestão">Sugestão</option>
+                <option value="Outro">Outro</option>
+            </select><br><br>
 
             <!--textarea usado para criar campo de mensagem-->
-            <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="  Mensagem" required></textarea><br><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="  Mensagem"
+                required></textarea><br><br>
 
-           <!--button usado para criar botão de enviar-->
+            <!--button usado para criar botão de enviar-->
             <button type="submit">Limpar tela</button>
 
         </fieldset>
