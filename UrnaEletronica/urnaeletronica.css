@@ -60,5 +60,5 @@ button {
 /* Elementos do botão*/
 button:hover {
     cursor: pointer;
-    background-color: #c4c4c4;
+    background-color: beige;
 }
