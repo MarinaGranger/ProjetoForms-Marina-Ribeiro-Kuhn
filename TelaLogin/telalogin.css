@@ -16,6 +16,7 @@ body {
 
 /* Todos os elementos do input*/
 input {
+    
     font-size: 1em;
     color: blueviolet;
     margin: 10px 0px;
@@ -23,6 +24,7 @@ input {
 
 /* Todos os elementos do botão */
 button {
+    font-family: 'Times New Roman', Times, serif;
     color: blueviolet;
     font-size: 1em;
 }
